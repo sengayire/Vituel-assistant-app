@@ -1,0 +1,117 @@
+
+.location-title{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 2rem;
+    .title{
+        float: left;
+        font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    }
+    .map-view-btn {
+        color: #eebd22;
+        border: 1px solid #eebd22;
+        background-color: transparent;
+        border-radius: 2px;
+        padding: 7px 1.5rem 7px 1.5rem;
+        display: inline-block;
+        text-transform: uppercase;    
+    }
+}
+
+
+.usa-location-btn {
+    background-color: transparent; 
+    border-top-color: transparent; 
+    border-left-color: transparent; 
+    border-right-color: transparent; 
+    border-bottom-color: #959595; 
+    outline: 0 !important;
+    width: 100%;
+    color: #959595;
+.right-arrow-icon{
+    float: right;
+}
+.drop-down-icon {
+    float: right;
+    -webkit-transform: rotateZ(90deg); /* Safari prior 9.0 */
+    transform: rotateZ(90deg);
+}
+.drop-down-icon-line {
+    -webkit-transform: rotateZ(90deg); /* Safari prior 9.0 */
+    transform: rotateZ(90deg);
+}
+.location-name-btn {
+    float: left;
+    color: #959595;
+}
+}
+
+.usa-location-btn:hover {
+color:#eebd22;
+border-bottom-color: #eebd22; 
+.location-name-btn {
+    color: #eebd22;
+}
+}
+.states-dropDown{
+    background-color: transparent;
+    color: #959595;
+   ul {
+    -moz-column-count: 6;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 6;
+    -webkit-column-gap: 20px;
+    column-count: 6;
+    column-gap: 20px;
+    list-style-type: none;
+    }
+}
+.drop-down-container{
+    margin-top: 30px;
+    .usa-location{
+        margin-top: 50px;
+    }
+}
+.location-others {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    .other-location-btn {
+        background-color: transparent; 
+        border-top-color: transparent; 
+        border-left-color: transparent; 
+        border-right-color: transparent; 
+        border-bottom-color: gray; 
+        outline: 0 !important;
+        width: 100%;
+        min-width: 400px;
+        color: #959595;
+    .right-arrow-icon{
+        float: right;
+    }
+    .drop-down-icon {
+        float: right;
+        -webkit-transform: rotateZ(90deg); /* Safari prior 9.0 */
+        transform: rotateZ(90deg);
+    }
+    .drop-down-icon-line {
+        -webkit-transform: rotateZ(90deg); /* Safari prior 9.0 */
+        transform: rotateZ(90deg);
+    }
+    .location-name-btn {
+        float: left;
+        color: #959595;
+    }
+    }
+    .other-location-btn:hover {
+        color:#eebd22;
+        border-bottom-color: #eebd22; 
+        .location-name-btn {
+            color: #eebd22;
+        }
+        }
+}
