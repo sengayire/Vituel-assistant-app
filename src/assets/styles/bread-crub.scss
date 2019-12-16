@@ -1,0 +1,25 @@
+.bread-crub {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    ul {
+        display: flex;
+        list-style: none;
+        padding-top: 10px;
+        li{
+            color: #eebd22;;
+            margin-left: 20px;
+            font-size: 12px;
+        }
+        li:before {
+            border-right: 2px solid gray;
+            border-bottom: 2px solid gray;
+            width: 7px;
+            height: 7px;
+            transform: rotate(-45deg);
+            content: "";
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}
