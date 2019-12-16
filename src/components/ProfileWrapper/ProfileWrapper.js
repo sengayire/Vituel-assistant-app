@@ -1,5 +1,8 @@
 import React from 'react';
 import ImageSlider from '../ImageSlider';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import '../../assets/styles/profile-wrapper.scss';
 import AboutEscort from '../AboutEscorts/AboutEscorts';
 const ProfileWrapper = () => {
@@ -18,16 +21,15 @@ const ProfileWrapper = () => {
               </span></div>
           </div>
           <div className="escort-contact">
-              <span>
-                  <h4>
+              <div><span><FontAwesomeIcon icon={faPhoneAlt} style={{color: 'white'}}/></span> <h4>
                   4804200298
                   </h4>
-              </span>
-              <span>
+                  </div>
+                  <div><span><FontAwesomeIcon icon={faEnvelope} style={{color: 'white'}}/></span>
                   <p href="">
                   ailixposed@pm.me   
                   </p>
-              </span>
+                  </div>
           </div>
       </div>
           <div className="image-slider-container">
