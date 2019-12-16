@@ -7,7 +7,7 @@ const ImageContainer = () => (
         <Container>
   <Row>
     <Col >
-      <Image src={escortImage}  width="200" height="250" rounded />
+      <Image src={escortImage}  width="185" height="250" rounded />
     </Col>
     </Row>
 </Container>
