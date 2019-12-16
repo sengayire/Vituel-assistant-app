@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import {  faThumbtack, faLink, faCheckCircle, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faSnapchatGhost, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import '../../assets/styles/about-escort.scss'
@@ -81,8 +82,8 @@ const AboutEscort = () => (
       <div className="contact-details-container">
           <div className="contact-details">
               <h5>CONTACT DETAILS</h5>
-              <span><span><FontAwesomeIcon icon={faPhoneAlt} /></span><span>4804200298</span></span>
-              <span><p>ailixposed@pm.me</p></span>
+              <span className="contact"><span><FontAwesomeIcon icon={faPhoneAlt} style={{color: 'white'}}/></span><span>4804200298</span></span>
+              <span className="contact"> <span><FontAwesomeIcon icon={faEnvelope} style={{color: 'white'}}/></span><span>ailixspasnosed@pm.me</span></span>
           </div>
       </div>
 
