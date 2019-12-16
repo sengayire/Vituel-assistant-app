@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageSlider from '../ImageSlider';
 import '../../assets/styles/profile-wrapper.scss';
+import AboutEscort from '../AboutEscorts/AboutEscorts';
 const ProfileWrapper = () => {
     return(
     <div className="profile-container">
@@ -31,6 +32,9 @@ const ProfileWrapper = () => {
       </div>
           <div className="image-slider-container">
             <ImageSlider />
+          </div>
+          <div className="about-escort">
+  <AboutEscort />
           </div>
       </div>
     )

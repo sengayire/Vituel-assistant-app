@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import rtaLogo from '../../assets/images/rta.png'
 import splashAsacp from '../../assets/images/splashAsacp.gif'
-// import footerBg from '../../assets/images/footer-bg.png';
 
 const Footer = () => (
     <div className="footer-items-container">
