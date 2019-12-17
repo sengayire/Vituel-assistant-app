@@ -1,28 +1,33 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import {Navbar, Nav} from 'react-bootstrap'
 import '../../assets/styles/header.scss'
 import logo from '../../assets/images/eros-logo.svg'
-const Header = () => (
+const Header = () => {
+  return(
     <div>
     <Navbar bg="dark" variant="dark" className="border-bottom border-warning nav">
-    <Navbar.Brand href="#home" className="brand" ><img className="logo" src={logo} alt=""/></Navbar.Brand>
+    <Navbar.Brand href="" className="brand" ><Link to='/'><img className="logo" src={logo} alt=""/></Link></Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#escorts" className="menu" >ESCORTS</Nav.Link>
-      <Nav.Link href="#trans" className="menu" >TRANS</Nav.Link>
-      <Nav.Link href="#bsdm" className="menu">BDSM</Nav.Link>
-      <Nav.Link href="#tantra" className="menu">TANTRA</Nav.Link>
-      <Nav.Link href="#massage" className="menu">MASSAGE</Nav.Link>
-      <Nav.Link href="#fetish" className="menu">FETISH</Nav.Link>
-      <Nav.Link href="#dancer" className="menu">DANCERS</Nav.Link>
-      <Nav.Link href="#sugarDate" className="menu">SUGAR DATE</Nav.Link>
-      <Nav.Link href="#liveEscorts" className="menu">LIVE ESCORTS</Nav.Link>
+      <Nav.Link href="" className="menu" >ESCORTS</Nav.Link>
+      <Nav.Link href="" className="menu" >TRANS</Nav.Link>
+      <Nav.Link href="" className="menu">BDSM</Nav.Link>
+      <Nav.Link href="" className="menu">TANTRA</Nav.Link>
+      <Nav.Link href="" className="menu">MASSAGE</Nav.Link>
+      <Nav.Link href="" className="menu">FETISH</Nav.Link>
+      <Nav.Link href="" className="menu">DANCERS</Nav.Link>
+      <Nav.Link href="" className="menu">SUGAR DATE</Nav.Link>
+      <Nav.Link href="" className="menu">LIVE ESCORTS</Nav.Link>
+    <Nav.Link href="" className="menu">SEARCH<span><FontAwesomeIcon icon={faSearch} style={{paddingLeft: 4}} /></span></Nav.Link>
+    <span style={{ paddingTop: 9}}>{" "} | {" "}</span>
+    <Nav.Link href="" className="menu" style={{color: '#eebd22'}}>POST AD</Nav.Link>
     </Nav>
-    {/* <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
-    </Form> */}
   </Navbar>
     </div>
-)
+  )
+}
+    
 
 export default Header;

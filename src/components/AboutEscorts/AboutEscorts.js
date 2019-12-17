@@ -82,8 +82,8 @@ const AboutEscort = () => (
       <div className="contact-details-container">
           <div className="contact-details">
               <h5>CONTACT DETAILS</h5>
-              <span className="contact"><span><FontAwesomeIcon icon={faPhoneAlt} style={{color: 'white'}}/></span><span>4804200298</span></span>
-              <span className="contact"> <span><FontAwesomeIcon icon={faEnvelope} style={{color: 'white'}}/></span><span>ailixspasnosed@pm.me</span></span>
+              <span className="contact"><span><FontAwesomeIcon icon={faPhoneAlt} style={{color: 'white', marginRight: 5}}/></span><span>4804200298</span></span>
+              <span className="contact"> <span><FontAwesomeIcon icon={faEnvelope} style={{color: '#ffffffb8', marginRight: 5}}/></span><span>ailixspasnosed@pm.me</span></span>
           </div>
       </div>
 

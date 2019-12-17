@@ -3,7 +3,7 @@
     color: white;
     font-size: 14px;
     .about-me{
-        background-color: black;
+        background-color: #00000091;
         height: 400px;
         width: 800px;
         border-radius: 4px;
@@ -16,7 +16,7 @@
     .my-details{
         display:  flex;
         flex-direction: column;
-        background-color: black;
+        background-color: #00000091;
         margin-left: 30px;
         border-radius: 4px;
         .details-container{
@@ -38,7 +38,6 @@
         
     }
     .social-media-links{
-        margin-right: 30px;
         margin-left: 30px;
         padding-top: 20px;
         padding-bottom: 10px;
@@ -57,10 +56,9 @@
             }
     }
     .contact-details-container {
-        margin-right: 30px;
         margin-left: 30px;
         margin-top: 5px;
-        background-color: black;
+        background-color: #00000091;
         border-radius: 4px;
         .contact-details {
             margin-right: 30px;
