@@ -1,8 +1,10 @@
 import React from 'react';
+import Sliders from '../Slider';
 const ImageSlider =() => {
     return(
-<div>
-</div>
+            <div>
+              <Sliders />
+          </div>
     );
 }
 

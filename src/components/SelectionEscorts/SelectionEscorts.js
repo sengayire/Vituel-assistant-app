@@ -3,15 +3,15 @@ import {ImageContainer} from '../Common'
 import '../../assets/styles/selectionEscort.scss'
 const SelectionEscorts = () => (
 <div className="escorts-image-container">
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
-<ImageContainer />
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
+<ImageContainer width={'185'} height={'250'}/>
 </div>
 )
 
