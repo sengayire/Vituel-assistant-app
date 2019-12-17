@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageSlider from '../ImageSlider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import {  faPhoneAlt, faCheck } from '@fortawesome/free-solid-svg-icons';
 import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import '../../assets/styles/profile-wrapper.scss';
 import AboutEscort from '../AboutEscorts/AboutEscorts';
@@ -12,7 +12,7 @@ const ProfileWrapper = () => {
           <div className="profile-header">
               <div className="escort-info">
              <h4 className="escort-name">AILI XPOSED</h4> 
-             <span><h4>Eros Verified</h4></span>
+             <span><span></span><h4><FontAwesomeIcon icon={faCheck} style={{ marginRight: 5}} />Eros Verified</h4></span>
               </div>
           <div className="escort-location"><span>
               <p>
@@ -21,11 +21,11 @@ const ProfileWrapper = () => {
               </span></div>
           </div>
           <div className="escort-contact">
-              <div><span><FontAwesomeIcon icon={faPhoneAlt} style={{color: 'white'}}/></span> <h4>
+              <div><span><FontAwesomeIcon icon={faPhoneAlt} style={{color: 'white', marginRight: 5}}/></span> <h4>
                   4804200298
                   </h4>
                   </div>
-                  <div><span><FontAwesomeIcon icon={faEnvelope} style={{color: 'white'}}/></span>
+                  <div><span><FontAwesomeIcon icon={faEnvelope} style={{color: '#ffffffb8', marginRight: 5}}/></span>
                   <p href="">
                   ailixposed@pm.me   
                   </p>
