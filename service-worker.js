@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Vituel-assistant-app/precache-manifest.a8f5397bcbd4e91483b076e4e85ca3c3.js"
+  "/Vituel-assistant-app/precache-manifest.79d7c63480beebb3136c8aefc277d7e7.js"
 );
 
 self.addEventListener('message', (event) => {

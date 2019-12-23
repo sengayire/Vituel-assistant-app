@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd4029a5dd2b09eabeee049d7895f155",
+    "revision": "34ac3978ccc8801714ca73420e8c507a",
     "url": "/Vituel-assistant-app/index.html"
   },
   {
