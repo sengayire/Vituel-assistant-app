@@ -9,7 +9,7 @@ const Header = () => {
   return(
     <div>
     <Navbar bg="dark" variant="dark" className="border-bottom border-warning nav">
-    <Navbar.Brand href="" className="brand" ><Link to='/'><img className="logo" src={logo} alt=""/></Link></Navbar.Brand>
+    <Navbar.Brand href="" className="brand" ><Link to='/'><h3 style={{color: '#eebd22'}}>AdamAndEvil.com</h3></Link></Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="" className="menu" >ESCORTS</Nav.Link>
       <Nav.Link href="" className="menu" >TRANS</Nav.Link>
