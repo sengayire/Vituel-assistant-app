@@ -1,0 +1,18 @@
+.slider-container {
+    height: 400px;
+    margin-bottom: 20px;
+    .slick-slider{
+        margin-left: 60px;
+        margin-right: 60px;
+        .svg-inline--fa {
+            width: 30px;
+            margin-bottom: 50px;
+        }
+        .slick-arrow::before{
+            visibility: hidden;
+        }
+    }
+    .slider-images-container{
+        padding-top: 30px;   
+    }
+}

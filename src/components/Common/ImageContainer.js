@@ -1,17 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap'
 import escortImage from '../../assets/images/escortImage.jpg'
 
-const ImageContainer = () => (
-    <div className="image-container">
+  class ImageContainer extends Component {
+    render() {
+      const { width, height, escortName, onClick } = this.props
+      return(
+<div className="image-container">
         <Container>
   <Row>
     <Col >
-      <Image src={escortImage}  width="200" height="250" rounded />
+      <Image onClick={onClick}src={escortImage}  width={width} height={height} rounded />
     </Col>
     </Row>
 </Container>
-<div className="info"><p>{"SENGAYIRE Prince"}</p></div>
+<div className="info"><p>{escortName}</p></div>
     </div>
-)
+      )
+    }
+
+  }
 export default ImageContainer;

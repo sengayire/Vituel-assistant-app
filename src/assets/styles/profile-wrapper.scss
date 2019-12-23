@@ -1,0 +1,31 @@
+.profile-container{
+    .profile-info-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 60px;
+        .profile-header{
+            float: left;
+            .escort-info{
+                display: flex;
+                color: #eebd22;
+                .escort-name {
+                    color: white;
+                    padding-right: 15px;
+                }
+            }
+           .escort-location {
+            color: white;
+           }
+        }
+        .escort-contact { 
+            color: #eebd22;
+           float: right;
+           div{
+               display: flex;
+           }
+        }
+    }
+    .image-slider-container {
+        background-color: black;
+    }
+}
