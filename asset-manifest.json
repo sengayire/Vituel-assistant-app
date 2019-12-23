@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Vituel-assistant/static/css/main.18d9f991.chunk.css",
-    "main.js": "/Vituel-assistant/static/js/main.21601055.chunk.js",
-    "main.js.map": "/Vituel-assistant/static/js/main.21601055.chunk.js.map",
-    "runtime-main.js": "/Vituel-assistant/static/js/runtime-main.0fc542e2.js",
-    "runtime-main.js.map": "/Vituel-assistant/static/js/runtime-main.0fc542e2.js.map",
-    "static/css/2.4ebba8f3.chunk.css": "/Vituel-assistant/static/css/2.4ebba8f3.chunk.css",
-    "static/js/2.f8467aa7.chunk.js": "/Vituel-assistant/static/js/2.f8467aa7.chunk.js",
-    "static/js/2.f8467aa7.chunk.js.map": "/Vituel-assistant/static/js/2.f8467aa7.chunk.js.map",
-    "index.html": "/Vituel-assistant/index.html",
-    "precache-manifest.50f195d5108282353c08b533b0a812ab.js": "/Vituel-assistant/precache-manifest.50f195d5108282353c08b533b0a812ab.js",
-    "service-worker.js": "/Vituel-assistant/service-worker.js",
-    "static/css/2.4ebba8f3.chunk.css.map": "/Vituel-assistant/static/css/2.4ebba8f3.chunk.css.map",
-    "static/css/main.18d9f991.chunk.css.map": "/Vituel-assistant/static/css/main.18d9f991.chunk.css.map",
-    "static/js/2.f8467aa7.chunk.js.LICENSE": "/Vituel-assistant/static/js/2.f8467aa7.chunk.js.LICENSE",
-    "static/media/Home.scss": "/Vituel-assistant/static/media/bg-map.202bd9f0.png",
-    "static/media/eros-logo.svg": "/Vituel-assistant/static/media/eros-logo.b049929f.svg",
-    "static/media/escortImage.jpg": "/Vituel-assistant/static/media/escortImage.7407493c.jpg",
-    "static/media/footer.scss": "/Vituel-assistant/static/media/footer-bg.bde7ba91.png",
-    "static/media/slick-theme.css": "/Vituel-assistant/static/media/slick.f97e3bbf.svg"
+    "main.css": "/Vituel-assistant-app/static/css/main.d27631fa.chunk.css",
+    "main.js": "/Vituel-assistant-app/static/js/main.55d8a7ee.chunk.js",
+    "main.js.map": "/Vituel-assistant-app/static/js/main.55d8a7ee.chunk.js.map",
+    "runtime-main.js": "/Vituel-assistant-app/static/js/runtime-main.d9287e65.js",
+    "runtime-main.js.map": "/Vituel-assistant-app/static/js/runtime-main.d9287e65.js.map",
+    "static/css/2.6b477dd3.chunk.css": "/Vituel-assistant-app/static/css/2.6b477dd3.chunk.css",
+    "static/js/2.f8467aa7.chunk.js": "/Vituel-assistant-app/static/js/2.f8467aa7.chunk.js",
+    "static/js/2.f8467aa7.chunk.js.map": "/Vituel-assistant-app/static/js/2.f8467aa7.chunk.js.map",
+    "index.html": "/Vituel-assistant-app/index.html",
+    "precache-manifest.a8f5397bcbd4e91483b076e4e85ca3c3.js": "/Vituel-assistant-app/precache-manifest.a8f5397bcbd4e91483b076e4e85ca3c3.js",
+    "service-worker.js": "/Vituel-assistant-app/service-worker.js",
+    "static/css/2.6b477dd3.chunk.css.map": "/Vituel-assistant-app/static/css/2.6b477dd3.chunk.css.map",
+    "static/css/main.d27631fa.chunk.css.map": "/Vituel-assistant-app/static/css/main.d27631fa.chunk.css.map",
+    "static/js/2.f8467aa7.chunk.js.LICENSE": "/Vituel-assistant-app/static/js/2.f8467aa7.chunk.js.LICENSE",
+    "static/media/Home.scss": "/Vituel-assistant-app/static/media/bg-map.202bd9f0.png",
+    "static/media/eros-logo.svg": "/Vituel-assistant-app/static/media/eros-logo.b049929f.svg",
+    "static/media/escortImage.jpg": "/Vituel-assistant-app/static/media/escortImage.7407493c.jpg",
+    "static/media/footer.scss": "/Vituel-assistant-app/static/media/footer-bg.bde7ba91.png",
+    "static/media/slick-theme.css": "/Vituel-assistant-app/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0fc542e2.js",
-    "static/css/2.4ebba8f3.chunk.css",
+    "static/js/runtime-main.d9287e65.js",
+    "static/css/2.6b477dd3.chunk.css",
     "static/js/2.f8467aa7.chunk.js",
-    "static/css/main.18d9f991.chunk.css",
-    "static/js/main.21601055.chunk.js"
+    "static/css/main.d27631fa.chunk.css",
+    "static/js/main.55d8a7ee.chunk.js"
   ]
 }
